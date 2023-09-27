@@ -4,12 +4,13 @@ A Ruby wrapper for youtube-dl/yt-dlp with progress callbacks.
 
 ## Installation
 
-```shell
-gem install ytdl
-```
-
 ```ruby
-gem 'ytdl'
+source 'https://rubygems.pkg.github.com/ivan-leschinsky' do
+  gem 'ytdl', '~> 0.3.1'
+end
+
+# or
+gem 'ytdl', git: 'git@github.com:ivan-leschinsky/ytdl-ruby.git', tag: 'v0.3.1'
 ```
 
 Make sure you have [yt-dlp](https://github.com/yt-dlp/yt-dlp) installed and available in your `PATH`. If you have `pip` installed:
