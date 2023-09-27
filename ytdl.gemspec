@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.metadata      = {
+    "github_repo" => "ssh://github.com/ivan-leschinsky/ytdl-ruby.git"
     "source_code_uri" => "https://github.com/maxhollmann/ruby-ytdl",
     "bug_tracker_uri" => "https://github.com/maxhollmann/ruby-ytdl/issues",
     "changelog_uri"   => "https://github.com/maxhollmann/ruby-ytdl/releases",
